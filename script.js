@@ -12,7 +12,7 @@ console.log(body);
 //     console.log(e.charCode);
 //     console.log(e.key);
 // })
-
+let audio = new Audio("a.mp3")
 let div = document.createElement("div");
 body.addEventListener('keydown', (e)=>{
     console.log(e);
@@ -21,6 +21,8 @@ body.addEventListener('keydown', (e)=>{
     para.innerHTML=`Your pressed <span class="green">${e.key}</span>`
     div.innerHTML= `${e.keyCode}`
     div.classList.add("number","green")
-    body.appendChild(div)
+    body.appendChild(div);
+    audio.play();
+    audio.duration("0.1s")
 
 })
