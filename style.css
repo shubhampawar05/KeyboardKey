@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.para{
+    padding: 1.5rem 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px black;
+}
+.number{
+    margin-top: 2rem;
+    font-size: 3rem;
+    box-shadow: 0px 0px 10px rgb(127, 126, 126);
+    padding: 1rem;
+
+}
+.green{
+    color: green;
+}
