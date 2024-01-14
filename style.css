@@ -28,3 +28,13 @@ body{
 .green{
     color: green;
 }
+
+@media screen and (max-width:426px){
+    .para {
+        padding: 1.5rem 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        box-shadow: 2px 2px 5px black;
+        /* width: 90%; */
+    }
+}
