@@ -27,8 +27,8 @@ body.addEventListener('keydown', (e)=>{
 
     let para = document.querySelector(".para");
     para.innerHTML=`Your pressed <span class="green">${e.key}</span>`
-    div.innerHTML= `${e.keyCode}`
-    div.classList.add("number","green")
+    div.innerHTML= ` KeyCode => ${e.keyCode}`
+    div.classList.add("number")
     body.appendChild(div);
     audio.play();
     // audio.duration("0.1s")
@@ -47,7 +47,7 @@ body.addEventListener('keydown', (e)=>{
 
 function changeBackgroundColor() {
     const randomColor = getRandomColor();
-    div.style.background = `linear-gradient(135deg, ${randomColor}, #e74c3c)`;
+    div.style.background = `linear-gradient(135deg, ${randomColor}, #00cfdf)`;
    body.style.background = `linear-gradient(45deg, ${randomColor}, #3498db)`;
 }
 
